@@ -1,0 +1,3188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаПанель" id="41">
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаПанельРасширеннаяПодсказка" id="42"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаКолонка1" id="64">
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ThroughAlign>Use</ThroughAlign>
+					<ExtendedTooltip name="ГруппаКолонка1РасширеннаяПодсказка" id="65"/>
+				</UsualGroup>
+				<UsualGroup name="ГруппаКолонка2" id="66">
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ThroughAlign>Use</ThroughAlign>
+					<ExtendedTooltip name="ГруппаКолонка2РасширеннаяПодсказка" id="67"/>
+				</UsualGroup>
+				<UsualGroup name="ГруппаКолонка3" id="168">
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКолонка3РасширеннаяПодсказка" id="169"/>
+				</UsualGroup>
+				<UsualGroup name="ГруппаКолонка4" id="225">
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКолонка4РасширеннаяПодсказка" id="226"/>
+				</UsualGroup>
+				<UsualGroup name="ГруппаКолонка5" id="227">
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКолонка5РасширеннаяПодсказка" id="228"/>
+				</UsualGroup>
+				<UsualGroup name="ГруппаКолонкаКоманднаяПанель" id="204">
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКолонкаКоманднаяПанельРасширеннаяПодсказка" id="205"/>
+					<ChildItems>
+						<CommandBar name="КоманднаяПанель" id="206">
+							<HorizontalLocation>Right</HorizontalLocation>
+							<CommandSource>Form</CommandSource>
+							<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="207"/>
+							<ChildItems>
+								<Button name="ФормаОбновитьПоказатели" id="1">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.fast8ОбновитьПоказатели</CommandName>
+									<ExtendedTooltip name="ФормаОбновитьПоказателиРасширеннаяПодсказка" id="2"/>
+								</Button>
+								<Button name="Формаfast8ОткрытьНастройки" id="221">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.fast8ОткрытьНастройки</CommandName>
+									<ExtendedTooltip name="Формаfast8ОткрытьНастройкиРасширеннаяПодсказка" id="222"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+						<Button name="Формаfast8Закрыть" id="424">
+							<Type>UsualButton</Type>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+							<CommandName>Form.Command.fast8Закрыть</CommandName>
+							<ExtendedTooltip name="Формаfast8ЗакрытьРасширеннаяПодсказка" id="425"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Парковка" id="223">
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ПарковкаРасширеннаяПодсказка" id="224"/>
+			<ChildItems>
+				<UsualGroup name="Виджет_Основное" id="33">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основное</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Width>60</Width>
+					<Height>15</Height>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<Group>Vertical</Group>
+					<Behavior>Collapsible</Behavior>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<BackColor>web:PapayaWhip</BackColor>
+					<ExtendedTooltip name="Виджет_ОсновноеРасширеннаяПодсказка" id="34"/>
+					<ChildItems>
+						<LabelField name="fast8АдресБазы" id="24">
+							<DataPath>fast8АдресБазы</DataPath>
+							<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<ContextMenu name="fast8АдресБазыКонтекстноеМеню" id="25"/>
+							<ExtendedTooltip name="fast8АдресБазыРасширеннаяПодсказка" id="26"/>
+						</LabelField>
+						<LabelField name="fast8ВерсияКонфигурации" id="27">
+							<DataPath>fast8ВерсияКонфигурации</DataPath>
+							<ContextMenu name="fast8ВерсияКонфигурацииКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="fast8ВерсияКонфигурацииРасширеннаяПодсказка" id="29"/>
+						</LabelField>
+						<LabelField name="fast8ПлатформаКлиент" id="21">
+							<DataPath>fast8ПлатформаКлиент</DataPath>
+							<ContextMenu name="fast8ПлатформаКлиентКонтекстноеМеню" id="22"/>
+							<ExtendedTooltip name="fast8ПлатформаКлиентРасширеннаяПодсказка" id="23"/>
+						</LabelField>
+						<LabelField name="fast8КаталогПрограммыКлиент" id="101">
+							<DataPath>fast8КаталогПрограммыКлиент</DataPath>
+							<ContextMenu name="fast8КаталогПрограммыКлиентКонтекстноеМеню" id="102"/>
+							<ExtendedTooltip name="fast8КаталогПрограммыКлиентРасширеннаяПодсказка" id="103"/>
+						</LabelField>
+						<LabelField name="fast8ПлатформаСервер" id="429">
+							<DataPath>fast8ПлатформаСервер</DataPath>
+							<ContextMenu name="fast8ПлатформаСерверКонтекстноеМеню" id="430"/>
+							<ExtendedTooltip name="fast8ПлатформаСерверРасширеннаяПодсказка" id="431"/>
+						</LabelField>
+						<LabelField name="fast8КаталогПрограммыСервер" id="426">
+							<DataPath>fast8КаталогПрограммыСервер</DataPath>
+							<ContextMenu name="fast8КаталогПрограммыСерверКонтекстноеМеню" id="427"/>
+							<ExtendedTooltip name="fast8КаталогПрограммыСерверРасширеннаяПодсказка" id="428"/>
+						</LabelField>
+						<LabelField name="fast8ПараметрыЗапуска" id="30">
+							<DataPath>fast8ПараметрыЗапуска</DataPath>
+							<TextColor>style:FieldSelectionBackColor</TextColor>
+							<Font ref="style:NormalTextFont" bold="false" italic="true" underline="false" strikeout="false" kind="StyleItem"/>
+							<ContextMenu name="fast8ПараметрыЗапускаКонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="fast8ПараметрыЗапускаРасширеннаяПодсказка" id="32"/>
+						</LabelField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Виджет_Сеансы" id="35">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сеансы</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Width>60</Width>
+					<Height>15</Height>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<Group>Vertical</Group>
+					<Behavior>Collapsible</Behavior>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<BackColor>web:LemonChiffon</BackColor>
+					<ExtendedTooltip name="Виджет_СеансыРасширеннаяПодсказка" id="36"/>
+					<ChildItems>
+						<LabelField name="fast8ТекущийСеанс" id="140">
+							<DataPath>fast8ТекущийСеанс</DataPath>
+							<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<ContextMenu name="fast8ТекущийСеансКонтекстноеМеню" id="141"/>
+							<ExtendedTooltip name="fast8ТекущийСеансРасширеннаяПодсказка" id="142"/>
+						</LabelField>
+						<LabelField name="fast8ОткрытКонфигуратор" id="9">
+							<DataPath>fast8ОткрытКонфигуратор</DataPath>
+							<TextColor>web:FireBrick</TextColor>
+							<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<ContextMenu name="fast8ОткрытКонфигураторКонтекстноеМеню" id="10"/>
+							<ExtendedTooltip name="fast8ОткрытКонфигураторРасширеннаяПодсказка" id="11"/>
+						</LabelField>
+						<UsualGroup name="ГруппаАктивныеСеансы" id="107">
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаАктивныеСеансыРасширеннаяПодсказка" id="108"/>
+							<ChildItems>
+								<LabelDecoration name="fast8ДекорацияАктивныеСеансы" id="104">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Активные сеансы:</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияАктивныеСеансыКонтекстноеМеню" id="105"/>
+									<ExtendedTooltip name="fast8ДекорацияАктивныеСеансыРасширеннаяПодсказка" id="106"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияАктивныеСеансыНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelField name="fast8АктивныеСеансы" id="3">
+									<DataPath>fast8АктивныеСеансы</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="fast8АктивныеСеансыКонтекстноеМеню" id="4"/>
+									<ExtendedTooltip name="fast8АктивныеСеансыРасширеннаяПодсказка" id="5"/>
+								</LabelField>
+								<UsualGroup name="ГруппаДублирующиесяСеансы" id="525">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дублирующиеся сеансы</v8:content>
+										</v8:item>
+									</Title>
+									<Behavior>PopUp</Behavior>
+									<ControlRepresentation>Picture</ControlRepresentation>
+									<BackColor>web:LemonChiffon</BackColor>
+									<ExtendedTooltip name="ГруппаДублирующиесяСеансыРасширеннаяПодсказка" id="526"/>
+									<ChildItems>
+										<Table name="fast8ДублирующиесяСеансы" id="527">
+											<Representation>List</Representation>
+											<ChangeRowSet>false</ChangeRowSet>
+											<ChangeRowOrder>false</ChangeRowOrder>
+											<HeightControlVariant>UseContentHeight</HeightControlVariant>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<HorizontalStretch>false</HorizontalStretch>
+											<VerticalStretch>false</VerticalStretch>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>fast8ДублирующиесяСеансы</DataPath>
+											<BackColor>web:LemonChiffon</BackColor>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="fast8ДублирующиесяСеансыКонтекстноеМеню" id="528"/>
+											<AutoCommandBar name="fast8ДублирующиесяСеансыКоманднаяПанель" id="529"/>
+											<ExtendedTooltip name="fast8ДублирующиесяСеансыРасширеннаяПодсказка" id="530"/>
+											<SearchStringAddition name="fast8ДублирующиесяСеансыСтрокаПоиска" id="531">
+												<AdditionSource>
+													<Item>fast8ДублирующиесяСеансы</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="fast8ДублирующиесяСеансыСтрокаПоискаКонтекстноеМеню" id="532"/>
+												<ExtendedTooltip name="fast8ДублирующиесяСеансыСтрокаПоискаРасширеннаяПодсказка" id="533"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="fast8ДублирующиесяСеансыСостояниеПросмотра" id="534">
+												<AdditionSource>
+													<Item>fast8ДублирующиесяСеансы</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="fast8ДублирующиесяСеансыСостояниеПросмотраКонтекстноеМеню" id="535"/>
+												<ExtendedTooltip name="fast8ДублирующиесяСеансыСостояниеПросмотраРасширеннаяПодсказка" id="536"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="fast8ДублирующиесяСеансыУправлениеПоиском" id="537">
+												<AdditionSource>
+													<Item>fast8ДублирующиесяСеансы</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="fast8ДублирующиесяСеансыУправлениеПоискомКонтекстноеМеню" id="538"/>
+												<ExtendedTooltip name="fast8ДублирующиесяСеансыУправлениеПоискомРасширеннаяПодсказка" id="539"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="fast8ДублирующиесяСеансыПользователь" id="540">
+													<DataPath>fast8ДублирующиесяСеансы.Пользователь</DataPath>
+													<TitleBackColor>web:LemonChiffon</TitleBackColor>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="fast8ДублирующиесяСеансыПользовательКонтекстноеМеню" id="541"/>
+													<ExtendedTooltip name="fast8ДублирующиесяСеансыПользовательРасширеннаяПодсказка" id="542"/>
+												</InputField>
+												<InputField name="fast8ДублирующиесяСеансыКоличествоСеансов" id="543">
+													<DataPath>fast8ДублирующиесяСеансы.КоличествоСеансов</DataPath>
+													<TitleBackColor>web:LemonChiffon</TitleBackColor>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="fast8ДублирующиесяСеансыКоличествоСеансовКонтекстноеМеню" id="544"/>
+													<ExtendedTooltip name="fast8ДублирующиесяСеансыКоличествоСеансовРасширеннаяПодсказка" id="545"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="fast8АктивныеПриложения" id="143">
+							<Representation>List</Representation>
+							<TitleLocation>Top</TitleLocation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<Width>58</Width>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
+							<Header>false</Header>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>fast8АктивныеПриложения</DataPath>
+							<BackColor>web:LemonChiffon</BackColor>
+							<BorderColor>web:LemonChiffon</BorderColor>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="fast8АктивныеПриложенияКонтекстноеМеню" id="144"/>
+							<AutoCommandBar name="fast8АктивныеПриложенияКоманднаяПанель" id="145">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="fast8АктивныеПриложенияРасширеннаяПодсказка" id="146"/>
+							<SearchStringAddition name="fast8АктивныеПриложенияСтрокаПоиска" id="147">
+								<AdditionSource>
+									<Item>fast8АктивныеПриложения</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="fast8АктивныеПриложенияСтрокаПоискаКонтекстноеМеню" id="148"/>
+								<ExtendedTooltip name="fast8АктивныеПриложенияСтрокаПоискаРасширеннаяПодсказка" id="149"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="fast8АктивныеПриложенияСостояниеПросмотра" id="150">
+								<AdditionSource>
+									<Item>fast8АктивныеПриложения</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="fast8АктивныеПриложенияСостояниеПросмотраКонтекстноеМеню" id="151"/>
+								<ExtendedTooltip name="fast8АктивныеПриложенияСостояниеПросмотраРасширеннаяПодсказка" id="152"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="fast8АктивныеПриложенияУправлениеПоиском" id="153">
+								<AdditionSource>
+									<Item>fast8АктивныеПриложения</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="fast8АктивныеПриложенияУправлениеПоискомКонтекстноеМеню" id="154"/>
+								<ExtendedTooltip name="fast8АктивныеПриложенияУправлениеПоискомРасширеннаяПодсказка" id="155"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="fast8АктивныеПриложенияПриложение" id="156">
+									<DataPath>fast8АктивныеПриложения.Приложение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="fast8АктивныеПриложенияПриложениеКонтекстноеМеню" id="157"/>
+									<ExtendedTooltip name="fast8АктивныеПриложенияПриложениеРасширеннаяПодсказка" id="158"/>
+								</InputField>
+								<InputField name="fast8АктивныеПриложенияКоличество" id="159">
+									<DataPath>fast8АктивныеПриложения.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>2</Width>
+									<ContextMenu name="fast8АктивныеПриложенияКоличествоКонтекстноеМеню" id="160"/>
+									<ExtendedTooltip name="fast8АктивныеПриложенияКоличествоРасширеннаяПодсказка" id="161"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Виджет_ЖурналРегистрации" id="39">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Журнал регистрации</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Width>60</Width>
+					<Height>15</Height>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<Group>Vertical</Group>
+					<Behavior>Collapsible</Behavior>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<BackColor>web:LemonChiffon</BackColor>
+					<ExtendedTooltip name="Виджет_ЖурналРегистрацииРасширеннаяПодсказка" id="40"/>
+					<ChildItems>
+						<LabelField name="fast8РазмерЖурналаРегистрации" id="162">
+							<DataPath>fast8РазмерЖурналаРегистрации</DataPath>
+							<ContextMenu name="fast8РазмерЖурналаРегистрацииКонтекстноеМеню" id="163"/>
+							<ExtendedTooltip name="fast8РазмерЖурналаРегистрацииРасширеннаяПодсказка" id="164"/>
+						</LabelField>
+						<LabelField name="fast8РазмерСловарейИИндексовППИ" id="165">
+							<DataPath>fast8РазмерСловарейИИндексовППИ</DataPath>
+							<ContextMenu name="fast8РазмерСловарейИИндексовППИКонтекстноеМеню" id="166"/>
+							<ExtendedTooltip name="fast8РазмерСловарейИИндексовППИРасширеннаяПодсказка" id="167"/>
+						</LabelField>
+						<UsualGroup name="ГруппаОткрытьЖурналРегистрации" id="117">
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаОткрытьЖурналРегистрацииРасширеннаяПодсказка" id="118"/>
+							<ChildItems>
+								<LabelDecoration name="fast8ДекорацияЖурналРегистрации" id="114">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Количество ошибок за последний час:</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияЖурналРегистрацииКонтекстноеМеню" id="115"/>
+									<ExtendedTooltip name="fast8ДекорацияЖурналРегистрацииРасширеннаяПодсказка" id="116"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияЖурналРегистрацииНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelField name="fast8КоличествоОшибокЗаПоследнийЧас" id="18">
+									<DataPath>fast8КоличествоОшибокЗаПоследнийЧас</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<TextColor>web:FireBrick</TextColor>
+									<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<ContextMenu name="fast8КоличествоОшибокЗаПоследнийЧасКонтекстноеМеню" id="19"/>
+									<ExtendedTooltip name="fast8КоличествоОшибокЗаПоследнийЧасРасширеннаяПодсказка" id="20"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="fast8Ошибки" id="68">
+							<Representation>List</Representation>
+							<TitleLocation>Top</TitleLocation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
+							<Header>false</Header>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>fast8Ошибки</DataPath>
+							<BackColor>web:LemonChiffon</BackColor>
+							<BorderColor>web:LemonChiffon</BorderColor>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Топ-5 ошибок по количеству</v8:content>
+								</v8:item>
+							</Title>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="fast8ОшибкиКонтекстноеМеню" id="69"/>
+							<AutoCommandBar name="fast8ОшибкиКоманднаяПанель" id="70">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="fast8ОшибкиРасширеннаяПодсказка" id="71"/>
+							<SearchStringAddition name="fast8ОшибкиСтрокаПоиска" id="72">
+								<AdditionSource>
+									<Item>fast8Ошибки</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="fast8ОшибкиСтрокаПоискаКонтекстноеМеню" id="73"/>
+								<ExtendedTooltip name="fast8ОшибкиСтрокаПоискаРасширеннаяПодсказка" id="74"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="fast8ОшибкиСостояниеПросмотра" id="75">
+								<AdditionSource>
+									<Item>fast8Ошибки</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="fast8ОшибкиСостояниеПросмотраКонтекстноеМеню" id="76"/>
+								<ExtendedTooltip name="fast8ОшибкиСостояниеПросмотраРасширеннаяПодсказка" id="77"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="fast8ОшибкиУправлениеПоиском" id="78">
+								<AdditionSource>
+									<Item>fast8Ошибки</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="fast8ОшибкиУправлениеПоискомКонтекстноеМеню" id="79"/>
+								<ExtendedTooltip name="fast8ОшибкиУправлениеПоискомРасширеннаяПодсказка" id="80"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="fast8ОшибкиПользователь" id="98">
+									<DataPath>fast8Ошибки.Пользователь</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>4</Width>
+									<ContextMenu name="fast8ОшибкиПользовательКонтекстноеМеню" id="99"/>
+									<ExtendedTooltip name="fast8ОшибкиПользовательРасширеннаяПодсказка" id="100"/>
+								</InputField>
+								<InputField name="fast8ОшибкиОшибка" id="81">
+									<DataPath>fast8Ошибки.Ошибка</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="fast8ОшибкиОшибкаКонтекстноеМеню" id="82"/>
+									<ExtendedTooltip name="fast8ОшибкиОшибкаРасширеннаяПодсказка" id="83"/>
+								</InputField>
+								<InputField name="fast8ОшибкиКоличество" id="84">
+									<DataPath>fast8Ошибки.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>2</Width>
+									<ContextMenu name="fast8ОшибкиКоличествоКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="fast8ОшибкиКоличествоРасширеннаяПодсказка" id="86"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Виджет_ИнтеграцияСДО" id="37">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Интеграция с ДО</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Width>60</Width>
+					<Height>15</Height>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<Group>Vertical</Group>
+					<Behavior>Collapsible</Behavior>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<BackColor>web:LemonChiffon</BackColor>
+					<ExtendedTooltip name="Виджет_ИнтеграцияСДОРасширеннаяПодсказка" id="38"/>
+					<ChildItems>
+						<CheckBoxField name="fast8ИнтеграцияСДОВключена" id="212">
+							<DataPath>fast8ИнтеграцияСДОВключена</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="fast8ИнтеграцияСДОВключенаКонтекстноеМеню" id="213"/>
+							<ExtendedTooltip name="fast8ИнтеграцияСДОВключенаРасширеннаяПодсказка" id="214"/>
+						</CheckBoxField>
+						<LabelField name="fast8ИнтеграцияСДОНазваниеЭтойБазы" id="505">
+							<DataPath>fast8ИнтеграцияСДОНазваниеЭтойБазы</DataPath>
+							<ContextMenu name="fast8ИнтеграцияСДОНазваниеЭтойБазыКонтекстноеМеню" id="506"/>
+							<ExtendedTooltip name="fast8ИнтеграцияСДОНазваниеЭтойБазыРасширеннаяПодсказка" id="507"/>
+						</LabelField>
+						<LabelField name="fast8АдресБазыДО" id="43">
+							<DataPath>fast8АдресБазыДО</DataPath>
+							<Hiperlink>true</Hiperlink>
+							<ContextMenu name="fast8АдресБазыДОКонтекстноеМеню" id="44"/>
+							<ExtendedTooltip name="fast8АдресБазыДОРасширеннаяПодсказка" id="45"/>
+						</LabelField>
+						<UsualGroup name="ЗаголовокКоличествоЗарегистрированныхВОбмене" id="335">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Заголовок количество зарегистрированных в обмене</v8:content>
+								</v8:item>
+							</Title>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ЗаголовокКоличествоЗарегистрированныхВОбменеРасширеннаяПодсказка" id="336"/>
+							<ChildItems>
+								<LabelDecoration name="fast8ДекорацияКоличествоЗарегистрированныхВОбмене" id="332">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Количество зарегистрированных в обмене:</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияКоличествоЗарегистрированныхВОбменеКонтекстноеМеню" id="333"/>
+									<ExtendedTooltip name="fast8ДекорацияКоличествоЗарегистрированныхВОбменеРасширеннаяПодсказка" id="334"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияКоличествоЗарегистрированныхВОбменеНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelField name="fast8КоличествоЗарегистрированныхВОбмене" id="218">
+									<DataPath>fast8КоличествоЗарегистрированныхВОбмене</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="fast8КоличествоЗарегистрированныхВОбменеКонтекстноеМеню" id="219"/>
+									<ExtendedTooltip name="fast8КоличествоЗарегистрированныхВОбменеРасширеннаяПодсказка" id="220"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<LabelField name="fast8ОбменСДОПроизводился" id="215">
+							<DataPath>fast8ОбменСДОПроизводился</DataPath>
+							<ContextMenu name="fast8ОбменСДОПроизводилсяКонтекстноеМеню" id="216"/>
+							<ExtendedTooltip name="fast8ОбменСДОПроизводилсяРасширеннаяПодсказка" id="217"/>
+						</LabelField>
+						<UsualGroup name="ЗаголовокРазмерОчередиСообщений" id="93">
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ЗаголовокРазмерОчередиСообщенийРасширеннаяПодсказка" id="94"/>
+							<ChildItems>
+								<LabelDecoration name="fast8ДекорацияРазмерОчередиСообщенийСДО" id="90">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Размер очереди сообщений с ДО:</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияРазмерОчередиСообщенийСДОКонтекстноеМеню" id="91"/>
+									<ExtendedTooltip name="fast8ДекорацияРазмерОчередиСообщенийСДОРасширеннаяПодсказка" id="92"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияРазмерОчередиСообщенийСДОНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelField name="fast8РазмерОчередиСообщенийСДО" id="12">
+									<DataPath>fast8РазмерОчередиСообщенийСДО</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="fast8РазмерОчередиСообщенийСДОКонтекстноеМеню" id="13"/>
+									<ExtendedTooltip name="fast8РазмерОчередиСообщенийСДОРасширеннаяПодсказка" id="14"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<LabelField name="fast8КоличествоОшибокВОчередиОбменаСДО" id="15">
+							<DataPath>fast8КоличествоОшибокВОчередиОбменаСДО</DataPath>
+							<ContextMenu name="fast8КоличествоОшибокВОчередиОбменаСДОКонтекстноеМеню" id="16"/>
+							<ExtendedTooltip name="fast8КоличествоОшибокВОчередиОбменаСДОРасширеннаяПодсказка" id="17"/>
+						</LabelField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Виджет_Обмены" id="46">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обмены</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Виджет обмены</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>60</Width>
+					<Height>15</Height>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<Group>Vertical</Group>
+					<Behavior>Collapsible</Behavior>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<BackColor>web:LemonChiffon</BackColor>
+					<ExtendedTooltip name="Виджет_ОбменыРасширеннаяПодсказка" id="47"/>
+					<ChildItems>
+						<LabelDecoration name="fast8ДекорацияОткрытьСписокОбменов" id="95">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Список обменов</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="fast8ДекорацияОткрытьСписокОбменовКонтекстноеМеню" id="96"/>
+							<ExtendedTooltip name="fast8ДекорацияОткрытьСписокОбменовРасширеннаяПодсказка" id="97"/>
+							<Events>
+								<Event name="Click">fast8ДекорацияОткрытьСписокОбменовНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<Table name="fast8Обмены" id="48">
+							<Representation>List</Representation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<Width>58</Width>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
+							<AutoMaxRowsCount>false</AutoMaxRowsCount>
+							<Header>false</Header>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>fast8Обмены</DataPath>
+							<RowPictureDataPath>fast8Обмены.Статус</RowPictureDataPath>
+							<RowsPicture>
+								<xr:Ref>0:f4651471-1d26-4646-9cab-8c6f192f188f</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</RowsPicture>
+							<BackColor>web:LemonChiffon</BackColor>
+							<BorderColor>web:LemonChiffon</BorderColor>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="fast8ОбменыКонтекстноеМеню" id="49"/>
+							<AutoCommandBar name="fast8ОбменыКоманднаяПанель" id="50">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="fast8ОбменыРасширеннаяПодсказка" id="51"/>
+							<SearchStringAddition name="fast8ОбменыСтрокаПоиска" id="52">
+								<AdditionSource>
+									<Item>fast8Обмены</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="fast8ОбменыСтрокаПоискаКонтекстноеМеню" id="53"/>
+								<ExtendedTooltip name="fast8ОбменыСтрокаПоискаРасширеннаяПодсказка" id="54"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="fast8ОбменыСостояниеПросмотра" id="55">
+								<AdditionSource>
+									<Item>fast8Обмены</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="fast8ОбменыСостояниеПросмотраКонтекстноеМеню" id="56"/>
+								<ExtendedTooltip name="fast8ОбменыСостояниеПросмотраРасширеннаяПодсказка" id="57"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="fast8ОбменыУправлениеПоиском" id="58">
+								<AdditionSource>
+									<Item>fast8Обмены</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="fast8ОбменыУправлениеПоискомКонтекстноеМеню" id="59"/>
+								<ExtendedTooltip name="fast8ОбменыУправлениеПоискомРасширеннаяПодсказка" id="60"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="fast8ОбменыОбмен" id="61">
+									<DataPath>fast8Обмены.Обмен</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>40</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<HorizontalStretch>false</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<TextEdit>false</TextEdit>
+									<ContextMenu name="fast8ОбменыОбменКонтекстноеМеню" id="62"/>
+									<ExtendedTooltip name="fast8ОбменыОбменРасширеннаяПодсказка" id="63"/>
+								</InputField>
+								<InputField name="fast8ОбменыВремяОбмена" id="87">
+									<DataPath>fast8Обмены.ВремяОбмена</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>12</Width>
+									<ContextMenu name="fast8ОбменыВремяОбменаКонтекстноеМеню" id="88"/>
+									<ExtendedTooltip name="fast8ОбменыВремяОбменаРасширеннаяПодсказка" id="89"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Виджет_РегламентныеЗадания" id="119">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регламентные задания</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Width>60</Width>
+					<Height>15</Height>
+					<Group>Vertical</Group>
+					<Behavior>Collapsible</Behavior>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<BackColor>web:LemonChiffon</BackColor>
+					<ExtendedTooltip name="Виджет_РегламентныеЗаданияРасширеннаяПодсказка" id="120"/>
+					<ChildItems>
+						<LabelDecoration name="fast8ДекорацияРаботаСоВнешнимиРесурсамиЗаблокирована" id="466">
+							<TextColor>web:FireBrick</TextColor>
+							<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Работа со внешними ресурсами заблокирована</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="fast8ДекорацияРаботаСоВнешнимиРесурсамиЗаблокированаКонтекстноеМеню" id="467"/>
+							<ExtendedTooltip name="fast8ДекорацияРаботаСоВнешнимиРесурсамиЗаблокированаРасширеннаяПодсказка" id="468"/>
+						</LabelDecoration>
+						<LabelDecoration name="fast8ДекорацияРегламентныеЗадания" id="109">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Регламентные задания</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="fast8ДекорацияРегламентныеЗаданияКонтекстноеМеню" id="110"/>
+							<ExtendedTooltip name="fast8ДекорацияРегламентныеЗаданияРасширеннаяПодсказка" id="111"/>
+							<Events>
+								<Event name="Click">fast8ДекорацияРегламентныеЗаданияНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<Table name="fast8АктивныеФоновыеЗадания" id="121">
+							<Representation>List</Representation>
+							<TitleLocation>Top</TitleLocation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<Width>58</Width>
+							<HeightControlVariant>UseContentHeight</HeightControlVariant>
+							<Header>false</Header>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>fast8АктивныеФоновыеЗадания</DataPath>
+							<BackColor>web:LemonChiffon</BackColor>
+							<BorderColor>web:LemonChiffon</BorderColor>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="fast8АктивныеФоновыеЗаданияКонтекстноеМеню" id="122"/>
+							<AutoCommandBar name="fast8АктивныеФоновыеЗаданияКоманднаяПанель" id="123">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="fast8АктивныеФоновыеЗаданияРасширеннаяПодсказка" id="124"/>
+							<SearchStringAddition name="fast8АктивныеФоновыеЗаданияСтрокаПоиска" id="125">
+								<AdditionSource>
+									<Item>fast8АктивныеФоновыеЗадания</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="fast8АктивныеФоновыеЗаданияСтрокаПоискаКонтекстноеМеню" id="126"/>
+								<ExtendedTooltip name="fast8АктивныеФоновыеЗаданияСтрокаПоискаРасширеннаяПодсказка" id="127"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="fast8АктивныеФоновыеЗаданияСостояниеПросмотра" id="128">
+								<AdditionSource>
+									<Item>fast8АктивныеФоновыеЗадания</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="fast8АктивныеФоновыеЗаданияСостояниеПросмотраКонтекстноеМеню" id="129"/>
+								<ExtendedTooltip name="fast8АктивныеФоновыеЗаданияСостояниеПросмотраРасширеннаяПодсказка" id="130"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="fast8АктивныеФоновыеЗаданияУправлениеПоиском" id="131">
+								<AdditionSource>
+									<Item>fast8АктивныеФоновыеЗадания</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="fast8АктивныеФоновыеЗаданияУправлениеПоискомКонтекстноеМеню" id="132"/>
+								<ExtendedTooltip name="fast8АктивныеФоновыеЗаданияУправлениеПоискомРасширеннаяПодсказка" id="133"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="fast8АктивныеФоновыеЗаданияЗадание" id="134">
+									<DataPath>fast8АктивныеФоновыеЗадания.Задание</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="fast8АктивныеФоновыеЗаданияЗаданиеКонтекстноеМеню" id="135"/>
+									<ExtendedTooltip name="fast8АктивныеФоновыеЗаданияЗаданиеРасширеннаяПодсказка" id="136"/>
+								</InputField>
+								<InputField name="fast8АктивныеФоновыеЗаданияВыполняется" id="137">
+									<DataPath>fast8АктивныеФоновыеЗадания.Выполняется</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="fast8АктивныеФоновыеЗаданияВыполняетсяКонтекстноеМеню" id="138"/>
+									<ExtendedTooltip name="fast8АктивныеФоновыеЗаданияВыполняетсяРасширеннаяПодсказка" id="139"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Виджет_Расширения" id="170">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расширения</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Width>60</Width>
+					<Height>15</Height>
+					<Group>AlwaysHorizontal</Group>
+					<Behavior>Collapsible</Behavior>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<BackColor>web:LemonChiffon</BackColor>
+					<ExtendedTooltip name="Виджет_РасширенияРасширеннаяПодсказка" id="171"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаЗаголовки" id="208">
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаЗаголовкиРасширеннаяПодсказка" id="209"/>
+							<ChildItems>
+								<LabelDecoration name="fast8ДекорацияРасширенияКонфигурации" id="174">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Расширения конфигурации:</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияРасширенияКонфигурацииКонтекстноеМеню" id="175"/>
+									<ExtendedTooltip name="fast8ДекорацияРасширенияКонфигурацииРасширеннаяПодсказка" id="176"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияРасширенияКонфигурацииНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="fast8ДекорацияПатчи" id="182">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Патчи конфигурации:</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияПатчиКонтекстноеМеню" id="183"/>
+									<ExtendedTooltip name="fast8ДекорацияПатчиРасширеннаяПодсказка" id="184"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияПатчиНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="fast8ДекорацияВнешниеОбработки" id="190">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Внешние обработки:</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияВнешниеОбработкиКонтекстноеМеню" id="191"/>
+									<ExtendedTooltip name="fast8ДекорацияВнешниеОбработкиРасширеннаяПодсказка" id="192"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияВнешниеОбработкиНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="fast8ДекорацияВнешниеОтчеты" id="198">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Внешние отчеты:</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияВнешниеОтчетыКонтекстноеМеню" id="199"/>
+									<ExtendedTooltip name="fast8ДекорацияВнешниеОтчетыРасширеннаяПодсказка" id="200"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияВнешниеОтчетыНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="fast8ДекорацияИзмененныеМакеты" id="472">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Измененые макеты:</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияИзмененныеМакетыКонтекстноеМеню" id="473"/>
+									<ExtendedTooltip name="fast8ДекорацияИзмененныеМакетыРасширеннаяПодсказка" id="474"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияИзмененныеМакетыНажатие</Event>
+									</Events>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаПоказатели" id="210">
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПоказателиРасширеннаяПодсказка" id="211"/>
+							<ChildItems>
+								<LabelField name="fast8РасширенияКонфигурацииКоличество" id="177">
+									<DataPath>fast8РасширенияКонфигурацииКоличество</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<HorizontalAlign>Right</HorizontalAlign>
+									<ContextMenu name="fast8РасширенияКонфигурацииКоличествоКонтекстноеМеню" id="178"/>
+									<ExtendedTooltip name="fast8РасширенияКонфигурацииКоличествоРасширеннаяПодсказка" id="179"/>
+								</LabelField>
+								<LabelField name="fast8ПатчиКонфигурацииКоличество" id="185">
+									<DataPath>fast8ПатчиКонфигурацииКоличество</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<HorizontalAlign>Right</HorizontalAlign>
+									<ContextMenu name="fast8ПатчиКонфигурацииКоличествоКонтекстноеМеню" id="186"/>
+									<ExtendedTooltip name="fast8ПатчиКонфигурацииКоличествоРасширеннаяПодсказка" id="187"/>
+								</LabelField>
+								<LabelField name="fast8ВнешниеОбработки" id="193">
+									<DataPath>fast8ВнешниеОбработки</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<HorizontalAlign>Right</HorizontalAlign>
+									<ContextMenu name="fast8ВнешниеОбработкиКонтекстноеМеню" id="194"/>
+									<ExtendedTooltip name="fast8ВнешниеОбработкиРасширеннаяПодсказка" id="195"/>
+								</LabelField>
+								<LabelField name="fast8ВнешниеОтчеты" id="201">
+									<DataPath>fast8ВнешниеОтчеты</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<HorizontalAlign>Right</HorizontalAlign>
+									<ContextMenu name="fast8ВнешниеОтчетыКонтекстноеМеню" id="202"/>
+									<ExtendedTooltip name="fast8ВнешниеОтчетыРасширеннаяПодсказка" id="203"/>
+								</LabelField>
+								<LabelField name="fast8ИзмененныеМакеты" id="469">
+									<DataPath>fast8ИзмененныеМакеты</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="fast8ИзмененныеМакетыКонтекстноеМеню" id="470"/>
+									<ExtendedTooltip name="fast8ИзмененныеМакетыРасширеннаяПодсказка" id="471"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаРасшифровка" id="229">
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаРасшифровкаРасширеннаяПодсказка" id="230"/>
+							<ChildItems>
+								<UsualGroup name="РасширенияРасшифровка" id="231">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Расшифровка</v8:content>
+										</v8:item>
+									</Title>
+									<Behavior>PopUp</Behavior>
+									<ControlRepresentation>Picture</ControlRepresentation>
+									<BackColor>web:LemonChiffon</BackColor>
+									<ExtendedTooltip name="РасширенияРасшифровкаРасширеннаяПодсказка" id="232"/>
+									<ChildItems>
+										<Table name="fast8РасширениКонфигурации" id="233">
+											<Representation>List</Representation>
+											<ReadOnly>true</ReadOnly>
+											<ChangeRowSet>false</ChangeRowSet>
+											<ChangeRowOrder>false</ChangeRowOrder>
+											<Width>80</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HeightControlVariant>UseContentHeight</HeightControlVariant>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<HorizontalStretch>false</HorizontalStretch>
+											<VerticalStretch>false</VerticalStretch>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>fast8РасширенияКонфигурации</DataPath>
+											<BackColor>web:LemonChiffon</BackColor>
+											<BorderColor>web:LemonChiffon</BorderColor>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="fast8РасширениКонфигурацииКонтекстноеМеню" id="234"/>
+											<AutoCommandBar name="fast8РасширениКонфигурацииКоманднаяПанель" id="235"/>
+											<ExtendedTooltip name="fast8РасширениКонфигурацииРасширеннаяПодсказка" id="236"/>
+											<SearchStringAddition name="fast8РасширениКонфигурацииСтрокаПоиска" id="237">
+												<AdditionSource>
+													<Item>fast8РасширениКонфигурации</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="fast8РасширениКонфигурацииСтрокаПоискаКонтекстноеМеню" id="238"/>
+												<ExtendedTooltip name="fast8РасширениКонфигурацииСтрокаПоискаРасширеннаяПодсказка" id="239"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="fast8РасширениКонфигурацииСостояниеПросмотра" id="240">
+												<AdditionSource>
+													<Item>fast8РасширениКонфигурации</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="fast8РасширениКонфигурацииСостояниеПросмотраКонтекстноеМеню" id="241"/>
+												<ExtendedTooltip name="fast8РасширениКонфигурацииСостояниеПросмотраРасширеннаяПодсказка" id="242"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="fast8РасширениКонфигурацииУправлениеПоиском" id="243">
+												<AdditionSource>
+													<Item>fast8РасширениКонфигурации</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="fast8РасширениКонфигурацииУправлениеПоискомКонтекстноеМеню" id="244"/>
+												<ExtendedTooltip name="fast8РасширениКонфигурацииУправлениеПоискомРасширеннаяПодсказка" id="245"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="fast8РасширениКонфигурацииИмя" id="246">
+													<DataPath>fast8РасширенияКонфигурации.Имя</DataPath>
+													<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>22</Width>
+													<ContextMenu name="fast8РасширениКонфигурацииИмяКонтекстноеМеню" id="247"/>
+													<ExtendedTooltip name="fast8РасширениКонфигурацииИмяРасширеннаяПодсказка" id="248"/>
+												</InputField>
+												<CheckBoxField name="fast8РасширениКонфигурацииСтруктурное" id="252">
+													<DataPath>fast8РасширенияКонфигурации.Структурное</DataPath>
+													<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="fast8РасширениКонфигурацииСтруктурноеКонтекстноеМеню" id="253"/>
+													<ExtendedTooltip name="fast8РасширениКонфигурацииСтруктурноеРасширеннаяПодсказка" id="254"/>
+												</CheckBoxField>
+												<InputField name="fast8РасширениКонфигурацииВерсия" id="499">
+													<DataPath>fast8РасширенияКонфигурации.Версия</DataPath>
+													<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>8</Width>
+													<ContextMenu name="fast8РасширениКонфигурацииВерсияКонтекстноеМеню" id="500"/>
+													<ExtendedTooltip name="fast8РасширениКонфигурацииВерсияРасширеннаяПодсказка" id="501"/>
+												</InputField>
+												<InputField name="fast8РасширениКонфигурацииРежимСовместимости" id="502">
+													<DataPath>fast8РасширенияКонфигурации.РежимСовместимости</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Совместимость</v8:content>
+														</v8:item>
+													</Title>
+													<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>8</Width>
+													<ContextMenu name="fast8РасширениКонфигурацииРежимСовместимостиКонтекстноеМеню" id="503"/>
+													<ExtendedTooltip name="fast8РасширениКонфигурацииРежимСовместимостиРасширеннаяПодсказка" id="504"/>
+												</InputField>
+												<InputField name="fast8РасширениКонфигурацииНазначение" id="267">
+													<DataPath>fast8РасширенияКонфигурации.Назначение</DataPath>
+													<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="fast8РасширениКонфигурацииНазначениеКонтекстноеМеню" id="268"/>
+													<ExtendedTooltip name="fast8РасширениКонфигурацииНазначениеРасширеннаяПодсказка" id="269"/>
+												</InputField>
+												<InputField name="fast8РасширениКонфигурацииКонтрольнаяСумма" id="249">
+													<DataPath>fast8РасширенияКонфигурации.КонтрольнаяСумма</DataPath>
+													<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>18</Width>
+													<ContextMenu name="fast8РасширениКонфигурацииКонтрольнаяСуммаКонтекстноеМеню" id="250"/>
+													<ExtendedTooltip name="fast8РасширениКонфигурацииКонтрольнаяСуммаРасширеннаяПодсказка" id="251"/>
+												</InputField>
+												<CheckBoxField name="fast8РасширениКонфигурацииАктивно" id="255">
+													<DataPath>fast8РасширенияКонфигурации.Активно</DataPath>
+													<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="fast8РасширениКонфигурацииАктивноКонтекстноеМеню" id="256"/>
+													<ExtendedTooltip name="fast8РасширениКонфигурацииАктивноРасширеннаяПодсказка" id="257"/>
+												</CheckBoxField>
+												<CheckBoxField name="fast8РасширениКонфигурацииБезопасныйРежим" id="258">
+													<DataPath>fast8РасширенияКонфигурации.БезопасныйРежим</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Безопасный</v8:content>
+														</v8:item>
+													</Title>
+													<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="fast8РасширениКонфигурацииБезопасныйРежимКонтекстноеМеню" id="259"/>
+													<ExtendedTooltip name="fast8РасширениКонфигурацииБезопасныйРежимРасширеннаяПодсказка" id="260"/>
+												</CheckBoxField>
+												<CheckBoxField name="fast8РасширениКонфигурацииЗащитаОтОпасныхДействий" id="261">
+													<DataPath>fast8РасширенияКонфигурации.ЗащитаОтОпасныхДействий</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Защита</v8:content>
+														</v8:item>
+													</Title>
+													<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="fast8РасширениКонфигурацииЗащитаОтОпасныхДействийКонтекстноеМеню" id="262"/>
+													<ExtendedTooltip name="fast8РасширениКонфигурацииЗащитаОтОпасныхДействийРасширеннаяПодсказка" id="263"/>
+												</CheckBoxField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ПатчиРасшифровка" id="292">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Расшифровка</v8:content>
+										</v8:item>
+									</Title>
+									<Behavior>PopUp</Behavior>
+									<ControlRepresentation>Picture</ControlRepresentation>
+									<BackColor>web:LemonChiffon</BackColor>
+									<ExtendedTooltip name="ПатчиРасшифровкаРасширеннаяПодсказка" id="293"/>
+									<ChildItems>
+										<Table name="fast8ПатчиКонфигурации" id="270">
+											<Representation>List</Representation>
+											<ReadOnly>true</ReadOnly>
+											<ChangeRowSet>false</ChangeRowSet>
+											<ChangeRowOrder>false</ChangeRowOrder>
+											<Width>70</Width>
+											<HeightControlVariant>UseContentHeight</HeightControlVariant>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<HorizontalStretch>false</HorizontalStretch>
+											<VerticalStretch>false</VerticalStretch>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>fast8ПатчиКонфигурации</DataPath>
+											<BackColor>web:LemonChiffon</BackColor>
+											<BorderColor>web:LemonChiffon</BorderColor>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="fast8ПатчиКонфигурацииКонтекстноеМеню" id="271"/>
+											<AutoCommandBar name="fast8ПатчиКонфигурацииКоманднаяПанель" id="272"/>
+											<ExtendedTooltip name="fast8ПатчиКонфигурацииРасширеннаяПодсказка" id="273"/>
+											<SearchStringAddition name="fast8ПатчиКонфигурацииСтрокаПоиска" id="274">
+												<AdditionSource>
+													<Item>fast8ПатчиКонфигурации</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="fast8ПатчиКонфигурацииСтрокаПоискаКонтекстноеМеню" id="275"/>
+												<ExtendedTooltip name="fast8ПатчиКонфигурацииСтрокаПоискаРасширеннаяПодсказка" id="276"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="fast8ПатчиКонфигурацииСостояниеПросмотра" id="277">
+												<AdditionSource>
+													<Item>fast8ПатчиКонфигурации</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="fast8ПатчиКонфигурацииСостояниеПросмотраКонтекстноеМеню" id="278"/>
+												<ExtendedTooltip name="fast8ПатчиКонфигурацииСостояниеПросмотраРасширеннаяПодсказка" id="279"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="fast8ПатчиКонфигурацииУправлениеПоиском" id="280">
+												<AdditionSource>
+													<Item>fast8ПатчиКонфигурации</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="fast8ПатчиКонфигурацииУправлениеПоискомКонтекстноеМеню" id="281"/>
+												<ExtendedTooltip name="fast8ПатчиКонфигурацииУправлениеПоискомРасширеннаяПодсказка" id="282"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="fast8ПатчиКонфигурацииИмя" id="283">
+													<DataPath>fast8ПатчиКонфигурации.Имя</DataPath>
+													<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="fast8ПатчиКонфигурацииИмяКонтекстноеМеню" id="284"/>
+													<ExtendedTooltip name="fast8ПатчиКонфигурацииИмяРасширеннаяПодсказка" id="285"/>
+												</InputField>
+												<CheckBoxField name="fast8ПатчиКонфигурацииАктивно" id="286">
+													<DataPath>fast8ПатчиКонфигурации.Активно</DataPath>
+													<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="fast8ПатчиКонфигурацииАктивноКонтекстноеМеню" id="287"/>
+													<ExtendedTooltip name="fast8ПатчиКонфигурацииАктивноРасширеннаяПодсказка" id="288"/>
+												</CheckBoxField>
+												<CheckBoxField name="fast8ПатчиКонфигурацииБезопасныйРежим" id="289">
+													<DataPath>fast8ПатчиКонфигурации.БезопасныйРежим</DataPath>
+													<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="fast8ПатчиКонфигурацииБезопасныйРежимКонтекстноеМеню" id="290"/>
+													<ExtendedTooltip name="fast8ПатчиКонфигурацииБезопасныйРежимРасширеннаяПодсказка" id="291"/>
+												</CheckBoxField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Виджет_Обновление" id="294">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обновление</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Width>60</Width>
+					<Height>15</Height>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<Group>Vertical</Group>
+					<Behavior>Collapsible</Behavior>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<BackColor>web:LemonChiffon</BackColor>
+					<ExtendedTooltip name="Виджет_ОбновлениеРасширеннаяПодсказка" id="295"/>
+					<ChildItems>
+						<LabelField name="fast8ВерсияРелизаКонфигурации" id="296">
+							<DataPath>fast8ВерсияКонфигурации</DataPath>
+							<ContextMenu name="fast8ВерсияРелизаКонфигурацииКонтекстноеМеню" id="297"/>
+							<ExtendedTooltip name="fast8ВерсияРелизаКонфигурацииРасширеннаяПодсказка" id="298"/>
+						</LabelField>
+						<LabelField name="fast8РежимСовместимости" id="496">
+							<DataPath>fast8РежимСовместимости</DataPath>
+							<ContextMenu name="fast8РежимСовместимостиКонтекстноеМеню" id="497"/>
+							<ExtendedTooltip name="fast8РежимСовместимостиРасширеннаяПодсказка" id="498"/>
+						</LabelField>
+						<UsualGroup name="ГруппаВерсииПодсистем" id="475">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Версии подсистем</v8:content>
+								</v8:item>
+							</Title>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>PopUp</Behavior>
+							<ControlRepresentation>Picture</ControlRepresentation>
+							<BackColor>web:LemonChiffon</BackColor>
+							<ExtendedTooltip name="ГруппаВерсииПодсистемРасширеннаяПодсказка" id="476"/>
+							<ChildItems>
+								<Table name="fast8ВерсииПодсистем" id="477">
+									<Representation>List</Representation>
+									<ChangeRowSet>false</ChangeRowSet>
+									<ChangeRowOrder>false</ChangeRowOrder>
+									<HeightControlVariant>UseContentHeight</HeightControlVariant>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<HorizontalStretch>false</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>fast8ВерсииПодсистем</DataPath>
+									<BackColor>web:LemonChiffon</BackColor>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="fast8ВерсииПодсистемКонтекстноеМеню" id="478"/>
+									<AutoCommandBar name="fast8ВерсииПодсистемКоманднаяПанель" id="479"/>
+									<ExtendedTooltip name="fast8ВерсииПодсистемРасширеннаяПодсказка" id="480"/>
+									<SearchStringAddition name="fast8ВерсииПодсистемСтрокаПоиска" id="481">
+										<AdditionSource>
+											<Item>fast8ВерсииПодсистем</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="fast8ВерсииПодсистемСтрокаПоискаКонтекстноеМеню" id="482"/>
+										<ExtendedTooltip name="fast8ВерсииПодсистемСтрокаПоискаРасширеннаяПодсказка" id="483"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="fast8ВерсииПодсистемСостояниеПросмотра" id="484">
+										<AdditionSource>
+											<Item>fast8ВерсииПодсистем</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="fast8ВерсииПодсистемСостояниеПросмотраКонтекстноеМеню" id="485"/>
+										<ExtendedTooltip name="fast8ВерсииПодсистемСостояниеПросмотраРасширеннаяПодсказка" id="486"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="fast8ВерсииПодсистемУправлениеПоиском" id="487">
+										<AdditionSource>
+											<Item>fast8ВерсииПодсистем</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="fast8ВерсииПодсистемУправлениеПоискомКонтекстноеМеню" id="488"/>
+										<ExtendedTooltip name="fast8ВерсииПодсистемУправлениеПоискомРасширеннаяПодсказка" id="489"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="fast8ВерсииСтандартныхПодсистемИмяПодсистемы" id="490">
+											<DataPath>fast8ВерсииПодсистем.ИмяПодсистемы</DataPath>
+											<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="fast8ВерсииСтандартныхПодсистемИмяПодсистемыКонтекстноеМеню" id="491"/>
+											<ExtendedTooltip name="fast8ВерсииСтандартныхПодсистемИмяПодсистемыРасширеннаяПодсказка" id="492"/>
+										</InputField>
+										<InputField name="fast8ВерсииСтандартныхПодсистемВерсия" id="493">
+											<DataPath>fast8ВерсииПодсистем.Версия</DataPath>
+											<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="fast8ВерсииСтандартныхПодсистемВерсияКонтекстноеМеню" id="494"/>
+											<ExtendedTooltip name="fast8ВерсииСтандартныхПодсистемВерсияРасширеннаяПодсказка" id="495"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ЗаголокПоследнееОбновлениеРелиза" id="340">
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ЗаголокПоследнееОбновлениеРелизаРасширеннаяПодсказка" id="341"/>
+							<ChildItems>
+								<LabelDecoration name="fast8ДекорацияПоследнееОбновлениеРелиза" id="337">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Последнее обновление релиза:</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияПоследнееОбновлениеРелизаКонтекстноеМеню" id="338"/>
+									<ExtendedTooltip name="fast8ДекорацияПоследнееОбновлениеРелизаРасширеннаяПодсказка" id="339"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияПоследнееОбновлениеРелизаНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelField name="fast8ПоследнееОбновлениеРелиза" id="299">
+									<DataPath>fast8ПоследнееОбновлениеРелиза</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="fast8ПоследнееОбновлениеРелизаКонтекстноеМеню" id="300"/>
+									<ExtendedTooltip name="fast8ПоследнееОбновлениеРелизаРасширеннаяПодсказка" id="301"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<LabelField name="fast8КоличествоИзмененийКонфигурацииСегодня" id="302">
+							<DataPath>fast8КоличествоИзмененийКонфигурацииСегодня</DataPath>
+							<ContextMenu name="fast8КоличествоИзмененийКонфигурацииСегодняКонтекстноеМеню" id="303"/>
+							<ExtendedTooltip name="fast8КоличествоИзмененийКонфигурацииСегодняРасширеннаяПодсказка" id="304"/>
+						</LabelField>
+						<UsualGroup name="ГруппаИзмененияКонфигурацииСегодня" id="305">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Изменения конфигурации сегодня</v8:content>
+								</v8:item>
+							</Title>
+							<Behavior>PopUp</Behavior>
+							<ControlRepresentation>Picture</ControlRepresentation>
+							<BackColor>web:LemonChiffon</BackColor>
+							<ExtendedTooltip name="ГруппаИзмененияКонфигурацииСегодняРасширеннаяПодсказка" id="306"/>
+							<ChildItems>
+								<Table name="fast8ИзмененияКонфигурацииСегодня" id="307">
+									<Representation>List</Representation>
+									<ReadOnly>true</ReadOnly>
+									<ChangeRowSet>false</ChangeRowSet>
+									<ChangeRowOrder>false</ChangeRowOrder>
+									<Width>70</Width>
+									<HeightControlVariant>UseContentHeight</HeightControlVariant>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<HorizontalStretch>false</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>fast8ИзмененияКонфигурацииСегодня</DataPath>
+									<BackColor>web:LemonChiffon</BackColor>
+									<BorderColor>web:LemonChiffon</BorderColor>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="fast8ИзмененияКонфигурацииСегодняКонтекстноеМеню" id="308"/>
+									<AutoCommandBar name="fast8ИзмененияКонфигурацииСегодняКоманднаяПанель" id="309"/>
+									<ExtendedTooltip name="fast8ИзмененияКонфигурацииСегодняРасширеннаяПодсказка" id="310"/>
+									<SearchStringAddition name="fast8ИзмененияКонфигурацииСегодняСтрокаПоиска" id="311">
+										<AdditionSource>
+											<Item>fast8ИзмененияКонфигурацииСегодня</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="fast8ИзмененияКонфигурацииСегодняСтрокаПоискаКонтекстноеМеню" id="312"/>
+										<ExtendedTooltip name="fast8ИзмененияКонфигурацииСегодняСтрокаПоискаРасширеннаяПодсказка" id="313"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="fast8ИзмененияКонфигурацииСегодняСостояниеПросмотра" id="314">
+										<AdditionSource>
+											<Item>fast8ИзмененияКонфигурацииСегодня</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="fast8ИзмененияКонфигурацииСегодняСостояниеПросмотраКонтекстноеМеню" id="315"/>
+										<ExtendedTooltip name="fast8ИзмененияКонфигурацииСегодняСостояниеПросмотраРасширеннаяПодсказка" id="316"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="fast8ИзмененияКонфигурацииСегодняУправлениеПоиском" id="317">
+										<AdditionSource>
+											<Item>fast8ИзмененияКонфигурацииСегодня</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="fast8ИзмененияКонфигурацииСегодняУправлениеПоискомКонтекстноеМеню" id="318"/>
+										<ExtendedTooltip name="fast8ИзмененияКонфигурацииСегодняУправлениеПоискомРасширеннаяПодсказка" id="319"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="fast8ИзмененияКонфигурацииСегодняДата" id="320">
+											<DataPath>fast8ИзмененияКонфигурацииСегодня.Дата</DataPath>
+											<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="fast8ИзмененияКонфигурацииСегодняДатаКонтекстноеМеню" id="321"/>
+											<ExtendedTooltip name="fast8ИзмененияКонфигурацииСегодняДатаРасширеннаяПодсказка" id="322"/>
+										</InputField>
+										<InputField name="fast8ИзмененияКонфигурацииСегодняСобытие" id="329">
+											<DataPath>fast8ИзмененияКонфигурацииСегодня.Событие</DataPath>
+											<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="fast8ИзмененияКонфигурацииСегодняСобытиеКонтекстноеМеню" id="330"/>
+											<ExtendedTooltip name="fast8ИзмененияКонфигурацииСегодняСобытиеРасширеннаяПодсказка" id="331"/>
+										</InputField>
+										<InputField name="fast8ИзмененияКонфигурацииСегодняДанные" id="323">
+											<DataPath>fast8ИзмененияКонфигурацииСегодня.Данные</DataPath>
+											<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="fast8ИзмененияКонфигурацииСегодняДанныеКонтекстноеМеню" id="324"/>
+											<ExtendedTooltip name="fast8ИзмененияКонфигурацииСегодняДанныеРасширеннаяПодсказка" id="325"/>
+										</InputField>
+										<InputField name="fast8ИзмененияКонфигурацииСегодняИмяПользователя" id="326">
+											<DataPath>fast8ИзмененияКонфигурацииСегодня.ИмяПользователя</DataPath>
+											<TitleBackColor>web:LightGoldenRodYellow</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="fast8ИзмененияКонфигурацииСегодняИмяПользователяКонтекстноеМеню" id="327"/>
+											<ExtendedTooltip name="fast8ИзмененияКонфигурацииСегодняИмяПользователяРасширеннаяПодсказка" id="328"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Виджет_Пользователи" id="342">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователи</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Width>60</Width>
+					<Height>15</Height>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<Group>AlwaysHorizontal</Group>
+					<Behavior>Collapsible</Behavior>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<BackColor>web:LemonChiffon</BackColor>
+					<ExtendedTooltip name="Виджет_ПользователиРасширеннаяПодсказка" id="343"/>
+					<ChildItems>
+						<UsualGroup name="Пользователи1" id="444">
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Пользователи1РасширеннаяПодсказка" id="445"/>
+							<ChildItems>
+								<LabelDecoration name="fast8ДекорацияПользователи" id="448">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пользователи:</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияПользователиКонтекстноеМеню" id="449"/>
+									<ExtendedTooltip name="fast8ДекорацияПользователиРасширеннаяПодсказка" id="450"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияПользователиНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="fast8ДекорацияПользователиИБ" id="460">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пользователи ИБ:</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="fast8ДекорацияПользователиИБКонтекстноеМеню" id="461"/>
+									<ExtendedTooltip name="fast8ДекорацияПользователиИБРасширеннаяПодсказка" id="462"/>
+								</LabelDecoration>
+								<LabelDecoration name="fast8ДекорацияПользователиСПолнымиПравами" id="457">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пользователи с полными правами:</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="fast8ДекорацияПользователиСПолнымиПравамиКонтекстноеМеню" id="458"/>
+									<ExtendedTooltip name="fast8ДекорацияПользователиСПолнымиПравамиРасширеннаяПодсказка" id="459"/>
+								</LabelDecoration>
+								<LabelDecoration name="fast8ДекорацияГруппыДоступа" id="454">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группы доступа:</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияГруппыДоступаКонтекстноеМеню" id="455"/>
+									<ExtendedTooltip name="fast8ДекорацияГруппыДоступаРасширеннаяПодсказка" id="456"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияГруппыДоступаНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="fast8ДекорацияПрофилиГруппДоступа" id="451">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Профили групп доступа:</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияПрофилиГруппДоступаКонтекстноеМеню" id="452"/>
+									<ExtendedTooltip name="fast8ДекорацияПрофилиГруппДоступаРасширеннаяПодсказка" id="453"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияПрофилиГруппДоступаНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="fast8ДекорацияДатыЗапретаРедактирования" id="463">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Даты запрета редактирования</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияДатыЗапретаРедактированияКонтекстноеМеню" id="464"/>
+									<ExtendedTooltip name="fast8ДекорацияДатыЗапретаРедактированияРасширеннаяПодсказка" id="465"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияДатыЗапретаРедактированияНажатие</Event>
+									</Events>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Пользователи2" id="446">
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Пользователи2РасширеннаяПодсказка" id="447"/>
+							<ChildItems>
+								<LabelField name="fast8Пользователи" id="385">
+									<DataPath>fast8Пользователи</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="fast8ПользователиКонтекстноеМеню" id="386"/>
+									<ExtendedTooltip name="fast8ПользователиРасширеннаяПодсказка" id="387"/>
+								</LabelField>
+								<LabelField name="fast8ПользователиИБ" id="432">
+									<DataPath>fast8ПользователиИБ</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="fast8ПользователиИБКонтекстноеМеню" id="433"/>
+									<ExtendedTooltip name="fast8ПользователиИБРасширеннаяПодсказка" id="434"/>
+								</LabelField>
+								<LabelField name="fast8ПользователиСПолнымиПравами" id="435">
+									<DataPath>fast8ПользователиСПолнымиПравами</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="fast8ПользователиСПолнымиПравамиКонтекстноеМеню" id="436"/>
+									<ExtendedTooltip name="fast8ПользователиСПолнымиПравамиРасширеннаяПодсказка" id="437"/>
+								</LabelField>
+								<LabelField name="fast8ГруппыДоступа" id="441">
+									<DataPath>fast8ГруппыДоступа</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="fast8ГруппыДоступаКонтекстноеМеню" id="442"/>
+									<ExtendedTooltip name="fast8ГруппыДоступаРасширеннаяПодсказка" id="443"/>
+								</LabelField>
+								<LabelField name="fast8ПрофилиГруппДоступа" id="438">
+									<DataPath>fast8ПрофилиГруппДоступа</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="fast8ПрофилиГруппДоступаКонтекстноеМеню" id="439"/>
+									<ExtendedTooltip name="fast8ПрофилиГруппДоступаРасширеннаяПодсказка" id="440"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Виджет_УниверсальныеКоманды" id="388">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Универсальные команды</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Width>60</Width>
+					<Height>15</Height>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<Group>AlwaysHorizontal</Group>
+					<Behavior>Collapsible</Behavior>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<BackColor>web:LemonChiffon</BackColor>
+					<ExtendedTooltip name="Виджет_УниверсальныеКомандыРасширеннаяПодсказка" id="389"/>
+					<ChildItems>
+						<UsualGroup name="Колонка1" id="405">
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Колонка1РасширеннаяПодсказка" id="406"/>
+							<ChildItems>
+								<LabelDecoration name="fast8ДекорацияУдалениеПомеченных" id="508">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Удаление помеченных</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияУдалениеПомеченныхКонтекстноеМеню" id="509"/>
+									<ExtendedTooltip name="fast8ДекорацияУдалениеПомеченныхРасширеннаяПодсказка" id="510"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияУдалениеПомеченныхНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="fast8ДекорацияГрупповоеИзменениеРеквизитов" id="511">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Групповое изменение реквизитов</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияГрупповоеИзменениеРеквизитовКонтекстноеМеню" id="512"/>
+									<ExtendedTooltip name="fast8ДекорацияГрупповоеИзменениеРеквизитовРасширеннаяПодсказка" id="513"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияГрупповоеИзменениеРеквизитовНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="fast8ДекорацияРегистрацияИзмененийВОбмене" id="514">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Регистрация изменений в обмене</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияРегистрацияИзмененийВОбменеКонтекстноеМеню" id="515"/>
+									<ExtendedTooltip name="fast8ДекорацияРегистрацияИзмененийВОбменеРасширеннаяПодсказка" id="516"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияРегистрацияИзмененийВОбменеНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="fast8ДекорацияЗаполнениеРегистровВзаиморасчетов" id="517">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Заполнение регистров взаиморасчетов</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияЗаполнениеРегистровВзаиморасчетовКонтекстноеМеню" id="518"/>
+									<ExtendedTooltip name="fast8ДекорацияЗаполнениеРегистровВзаиморасчетовРасширеннаяПодсказка" id="519"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияЗаполнениеРегистровВзаиморасчетовНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="fast8ДекорацияКлючиРеестраДокументов" id="520">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ключи реестра документов</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="fast8ДекорацияКлючиРеестраДокументовКонтекстноеМеню" id="521"/>
+									<ExtendedTooltip name="fast8ДекорацияКлючиРеестраДокументовРасширеннаяПодсказка" id="522"/>
+									<Events>
+										<Event name="Click">fast8ДекорацияКлючиРеестраДокументовНажатие</Event>
+									</Events>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Колонка2" id="407">
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Колонка2РасширеннаяПодсказка" id="408"/>
+							<ChildItems>
+								<Button name="fast8СброситьНумерациюОбъектов" id="403">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.fast8СброситьНумерациюОбъектов</CommandName>
+									<BackColor>web:LemonChiffon</BackColor>
+									<ExtendedTooltip name="fast8СброситьНумерациюОбъектовРасширеннаяПодсказка" id="404"/>
+								</Button>
+								<Button name="fast8УстановитьМонопольно" id="414">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.fast8УстановитьМонопольно</CommandName>
+									<BackColor>web:LemonChiffon</BackColor>
+									<ExtendedTooltip name="fast8УстановитьМонопольноРасширеннаяПодсказка" id="415"/>
+								</Button>
+								<Button name="fast8ПерезагрузитьПрограмму" id="523">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.fast8ПерезагрузитьПрограмму</CommandName>
+									<BackColor>web:LemonChiffon</BackColor>
+									<ExtendedTooltip name="fast8ПерезагрузитьПрограммуРасширеннаяПодсказка" id="524"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.fast8Desktop</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="fast8АктивныеСеансы" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Активные сеансы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ОткрытКонфигуратор" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыт конфигуратор</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8РазмерОчередиСообщенийСДО" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Размер очереди сообщений с ДО</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8КоличествоОшибокВОчередиОбменаСДО" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество ошибок в очереди обмена с ДО</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8КоличествоОшибокЗаПоследнийЧас" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество ошибок за последний час в ЖР</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ПлатформаКлиент" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Платформа клиента</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8АдресБазы" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес базы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ВерсияКонфигурации" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версия конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ПараметрыЗапуска" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметры запуска</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8АдресБазыДО" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес базы ДО</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8Обмены" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмены</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Обмен" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обмен</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Статус" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ВремяОбмена" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Время обмена</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>15</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="fast8Ошибки" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Ошибка" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ошибка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Количество" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Пользователь" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>30</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="fast8КаталогПрограммыКлиент" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каталог программы клиента</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>512</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8АктивныеФоновыеЗадания" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Активные фоновые задания</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Задание" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задание</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Выполняется" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выполняется</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>15</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Длительность" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Длительность</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="fast8ТекущийСеанс" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий сеанс</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8АктивныеПриложения" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Активные приложения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Приложение" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приложение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>30</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Количество" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="fast8КаталогКластера" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каталог кластера</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>512</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8РазмерЖурналаРегистрации" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Размер журнала регистрации, Мб</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8РазмерСловарейИИндексовППИ" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Размер словарей и индексов ППИ, Мб</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ВыполненЗапросКФайламКластера" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнен запрос к файлам кластера</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8РасширенияКонфигурацииКоличество" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расширения конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ПатчиКонфигурацииКоличество" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Патчи конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ВнешниеОбработки" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Внешние обработки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ВнешниеОтчеты" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Внешние отчеты</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ВысотаВиджета" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Высота виджета</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ШиринаВиджета" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ширина виджета</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8КоличествоВиджетовПоВертикали" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество виджетов по вертикали</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8КоличествоВиджетовПоГоризонтали" id="30">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество виджетов по горизонтали</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ИнтеграцияСДОВключена" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Интеграция с ДО включена</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ОбменСДОПроизводился" id="32">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмен с ДО производился</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ЗапускатьАвтоматически" id="33">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запускать автоматически</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ПорядокВиджетов" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Порядок виджетов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Виджет" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Виджет</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>30</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Используется" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Используется</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="fast8КоличествоЗарегистрированныхВОбмене" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество зарегистрированных в обмене</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ПериодАвтообновления" id="36">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период автообновления, секунд</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ИмяПользователя" id="37">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя пользователя</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8РасширенияКонфигурации" id="38">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расширения конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Имя" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="КонтрольнаяСумма" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрольная сумма</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Структурное" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Структурное</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Активно" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Активно</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="БезопасныйРежим" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Безопасный режим</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ЗащитаОтОпасныхДействий" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Защита от опасных действий</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Назначение" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Назначение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Версия" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Версия</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="РежимСовместимости" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Режим совместимости</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="fast8ПатчиКонфигурации" id="39">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Патчи конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Имя" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Активно" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Активно</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="БезопасныйРежим" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Безопасный режим</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="fast8ПоследнееОбновлениеРелиза" id="40">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Последнее обновление релиза</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ВерсияРелизаКонфигурации" id="41">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версия конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8КоличествоИзмененийКонфигурацииСегодня" id="42">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество изменений конфигурации сегодня</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ИзмененияКонфигурацииСегодня" id="43">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменения конфигурации сегодня</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Дата" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="Данные" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяПользователя" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя пользователя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Событие" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Событие</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="fast8Пользователи" id="44">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пользователи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8РежимРаботы" id="45">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Режим работы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8Монопольно" id="46">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Монопольно</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ЗакрыватьТолькоПоКнопке" id="47">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрывать только по кнопке</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ВыполняетсяЗакрытие" id="48">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполняется закрытие</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8КаталогПрограммыСервер" id="49">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каталог программы сервера</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>512</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ПлатформаСервер" id="50">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Платформа сервера</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ПользователиИБ" id="51">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пользователи ИБ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ПользователиСПолнымиПравами" id="52">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пользователи с полными правами</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ГруппыДоступа" id="53">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группы доступа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ПрофилиГруппДоступа" id="54">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Профили групп доступа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ИзмененныеМакеты" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Измененные макеты</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ВерсииПодсистем" id="55">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версии подсистем</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ИмяПодсистемы" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя подсистемы</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Версия" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Версия</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>15</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="fast8РежимСовместимости" id="56">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Режим совместимости</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>20</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ДанныеРасширений" id="57">
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Имя" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="РежимСовместимости" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Режим совместимости</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="fast8ВыполненЗапросКДаннымРасширений" id="58">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнен запрос к данным расширений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ИнтеграцияСДОНазваниеЭтойБазы" id="59">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Название этой базы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ЭтоВнешняяОбработка" id="60">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Это внешняя обработка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="fast8ДублирующиесяСеансы" id="61">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дублирующиеся сеансы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Пользователь" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="КоличествоСеансов" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество сеансов</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>fast8ОбменыОбмен</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">fast8Обмены.Статус</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">6</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">web:FireBrick</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="fast8ОбновитьПоказатели" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить показатели</v8:content>
+				</v8:item>
+			</Title>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>fast8ОбновитьПоказатели</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="fast8ОткрытьНастройки" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть настройки</v8:content>
+				</v8:item>
+			</Title>
+			<Picture>
+				<xr:Ref>StdPicture.Setting</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>fast8ОткрытьНастройки</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="fast8СброситьНумерациюОбъектов" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить нумераторы в памяти кластера</v8:content>
+				</v8:item>
+			</Title>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>fast8СброситьНумерациюОбъектов</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="fast8УстановитьМонопольно" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить монопольно</v8:content>
+				</v8:item>
+			</Title>
+			<Picture>
+				<xr:Ref>StdPicture.User</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>fast8УстановитьМонопольно</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="fast8Закрыть" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Close</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>fast8Закрыть</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="fast8ПерезагрузитьПрограмму" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перезагрузить программу</v8:content>
+				</v8:item>
+			</Title>
+			<Picture>
+				<xr:Ref>StdPicture.AppearanceCircleRed</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>fast8ПерезагрузитьПрограмму</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>
