@@ -20,6 +20,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+#Область ОбработчикиСобытий
+
+//@skip-check not-allowed-pragma
 &После("ПриНачалеРаботыСистемы")
 Процедура fast8desk_ПриНачалеРаботыСистемы()
 	
@@ -28,3 +31,5 @@
 	КонецЕсли;
 	
 КонецПроцедуры // fast8desk_ПриНачалеРаботыСистемы()
+
+#КонецОбласти // ОбработчикиСобытий
