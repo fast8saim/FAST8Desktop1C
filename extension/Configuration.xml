@@ -48,7 +48,7 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
+			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>fast8desk_</NamePrefix>
