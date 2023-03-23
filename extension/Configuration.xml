@@ -30,17 +30,10 @@
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
 				<xr:ObjectId>8bda83ba-87ec-45bb-a880-eb73f0af10c0</xr:ObjectId>
 			</xr:ContainedObject>
-			<xr:PropertyState>
-				<xr:Property>ManagedApplicationModule</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
-			<xr:PropertyState>
-				<xr:Property>DefaultRoles</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
-			<Name>FAST8Desktop</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>FAST8Desktop1C</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -49,8 +42,7 @@
 			</Synonym>
 			<Comment/>
 			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
-			<ObjectBelonging>Adopted</ObjectBelonging>
-			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
+			<KeepMappingToExtendedConfigurationObjectsByIDs>false</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>fast8desk_</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_14</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
@@ -58,19 +50,24 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.fast8desk_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>FAST8.RU</Vendor>
-			<Version>2023_03_12</Version>
+			<Version>2023_03_23</Version>
 			<BriefInformation/>
 			<DetailedInformation/>
 			<Copyright/>
 			<VendorInformationAddress/>
-			<ConfigurationInformationAddress/>
+			<ConfigurationInformationAddress>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>https://fast8.ru/FAST8Desktop1C/</v8:content>
+				</v8:item>
+			</ConfigurationInformationAddress>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Role>fast8desk_ОсновнаяРоль</Role>
 			<Role>ПолныеПрава</Role>
 			<CommonModule>fast8desk_ВызовСервера</CommonModule>
-			<DataProcessor>fast8Desktop</DataProcessor>
+			<DataProcessor>fast8desk_Desktop</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

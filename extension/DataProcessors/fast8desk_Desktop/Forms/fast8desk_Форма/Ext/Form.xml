@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -52,35 +52,45 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКолонка5РасширеннаяПодсказка" id="228"/>
 				</UsualGroup>
+				<LabelDecoration name="ДекорацияНаполнитель" id="548">
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="ДекорацияНаполнительКонтекстноеМеню" id="549"/>
+					<ExtendedTooltip name="ДекорацияНаполнительРасширеннаяПодсказка" id="550"/>
+				</LabelDecoration>
 				<UsualGroup name="ГруппаКолонкаКоманднаяПанель" id="204">
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКолонкаКоманднаяПанельРасширеннаяПодсказка" id="205"/>
 					<ChildItems>
-						<CommandBar name="КоманднаяПанель" id="206">
-							<HorizontalLocation>Right</HorizontalLocation>
-							<CommandSource>Form</CommandSource>
-							<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="207"/>
-							<ChildItems>
-								<Button name="ФормаОбновитьПоказатели" id="1">
-									<Type>CommandBarButton</Type>
-									<CommandName>Form.Command.fast8ОбновитьПоказатели</CommandName>
-									<ExtendedTooltip name="ФормаОбновитьПоказателиРасширеннаяПодсказка" id="2"/>
-								</Button>
-								<Button name="Формаfast8ОткрытьНастройки" id="221">
-									<Type>CommandBarButton</Type>
-									<CommandName>Form.Command.fast8ОткрытьНастройки</CommandName>
-									<ExtendedTooltip name="Формаfast8ОткрытьНастройкиРасширеннаяПодсказка" id="222"/>
-								</Button>
-							</ChildItems>
-						</CommandBar>
-						<Button name="Формаfast8Закрыть" id="424">
+						<Button name="fast8Закрыть" id="424">
 							<Type>UsualButton</Type>
 							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 							<CommandName>Form.Command.fast8Закрыть</CommandName>
-							<ExtendedTooltip name="Формаfast8ЗакрытьРасширеннаяПодсказка" id="425"/>
+							<ExtendedTooltip name="fast8ЗакрытьРасширеннаяПодсказка" id="425"/>
+						</Button>
+						<Button name="fast8ОбновитьПоказатели" id="1">
+							<Type>UsualButton</Type>
+							<Width>3</Width>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+							<CommandName>Form.Command.fast8ОбновитьПоказатели</CommandName>
+							<ExtendedTooltip name="fast8ОбновитьПоказателиРасширеннаяПодсказка" id="2"/>
+						</Button>
+						<Button name="fast8ОткрытьНастройки" id="221">
+							<Type>UsualButton</Type>
+							<Width>3</Width>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+							<CommandName>Form.Command.fast8ОткрытьНастройки</CommandName>
+							<ExtendedTooltip name="fast8ОткрытьНастройкиРасширеннаяПодсказка" id="222"/>
+						</Button>
+						<Button name="fast8ОПрограмме" id="546">
+							<Type>UsualButton</Type>
+							<Width>3</Width>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+							<CommandName>Form.Command.fast8ОПрограмме</CommandName>
+							<ExtendedTooltip name="fast8ОПрограммеРасширеннаяПодсказка" id="547"/>
 						</Button>
 					</ChildItems>
 				</UsualGroup>
@@ -1693,7 +1703,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:DataProcessorObject.fast8Desktop</v8:Type>
+				<v8:Type>cfg:DataProcessorObject.fast8desk_Desktop</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
@@ -3183,6 +3193,26 @@
 			</Picture>
 			<Action>fast8ПерезагрузитьПрограмму</Action>
 			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="fast8ОПрограмме" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>О программе</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>О программе</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.FormHelp</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>fast8ОПрограмме</Action>
+			<Representation>Picture</Representation>
 		</Command>
 	</Commands>
 </Form>

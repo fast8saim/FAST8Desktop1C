@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.15">
+	<ConfigVersions>
+		<Metadata name="CommonModule.fast8desk_ВызовСервера" id="9df38312-f157-476b-9767-ff6ecb782910" configVersion="36de49319b598851c34c05955c6e8d09a4c9f491"/>
+		<Metadata name="CommonModule.fast8desk_ВызовСервера.Module" id="9df38312-f157-476b-9767-ff6ecb782910.0" configVersion="d947198114b94c7df4e70aee2bff50dfddb577fc"/>
+		<Metadata name="Configuration.FAST8Desktop1C" id="2456dfbf-c5a0-4d14-8bd6-b76bc2e6d3cd" configVersion="6b5c62bad616322c2be071cd6e13d39afcf7cb46"/>
+		<Metadata name="Configuration.FAST8Desktop1C.ManagedApplicationModule" id="d09b3674-db3f-4847-a47f-28eed84ea8c2.6" configVersion="28b60a8e966bd7f6927ea7160f71dac98ab302ef"/>
+		<Metadata name="DataProcessor.fast8desk_Desktop" id="9406d76b-a289-4932-969f-8c6b5affc069" configVersion="651262a1c84c4fe7b9ba4a93550d85f0386510a2"/>
+		<Metadata name="DataProcessor.fast8desk_Desktop.Form.fast8desk_Настройки" id="a3e64eb7-fca6-481b-a4c4-e0b7a0555633" configVersion="32c0b443da14eaacb7a1a8fcb058ba8ded7a4891"/>
+		<Metadata name="DataProcessor.fast8desk_Desktop.Form.fast8desk_Настройки.Form" id="a3e64eb7-fca6-481b-a4c4-e0b7a0555633.0" configVersion="b779723fc9d86b92bb79675e78ae93e6b4d8050a"/>
+		<Metadata name="DataProcessor.fast8desk_Desktop.Form.fast8desk_ОПрограмме" id="f126ea53-ae39-4e1a-9fed-45b354b3ced6" configVersion="84b04ebec7f4994a7cff9270b175b75486c332f9"/>
+		<Metadata name="DataProcessor.fast8desk_Desktop.Form.fast8desk_ОПрограмме.Form" id="f126ea53-ae39-4e1a-9fed-45b354b3ced6.0" configVersion="0bf723cad72d945ae2c5a0ea91be8668530c5bcb"/>
+		<Metadata name="DataProcessor.fast8desk_Desktop.Form.fast8desk_ПараметрыПерезагрузки" id="0311ff5f-ece0-4776-ab64-a2bbd56559d9" configVersion="3ac9a17d5365ce5f02350a13e769919ab0dfec12"/>
+		<Metadata name="DataProcessor.fast8desk_Desktop.Form.fast8desk_ПараметрыПерезагрузки.Form" id="0311ff5f-ece0-4776-ab64-a2bbd56559d9.0" configVersion="c66ef6d4d89308db481f09ca766da775d427c0bb"/>
+		<Metadata name="DataProcessor.fast8desk_Desktop.Form.fast8desk_Форма" id="2fa019e8-8057-458f-bf15-132ac826fe75" configVersion="6980d3699258e82db919390bea63d62cac905342"/>
+		<Metadata name="DataProcessor.fast8desk_Desktop.Form.fast8desk_Форма.Form" id="2fa019e8-8057-458f-bf15-132ac826fe75.0" configVersion="cc85ca78c4a40d7034dcd56c0d1df2e57cea5c17"/>
+		<Metadata name="DataProcessor.fast8desk_Desktop.ObjectModule" id="9406d76b-a289-4932-969f-8c6b5affc069.0" configVersion="e61f6f9d385a0a48ab0051442b81abe96931f702"/>
+		<Metadata name="Language.Русский" id="f10aa542-6423-4f2f-87be-b1e3ff72c611" configVersion="d3227aef0a4059aabe070efa4ab381c144fe79d3"/>
+		<Metadata name="Role.fast8desk_ОсновнаяРоль" id="5590c14b-0d7f-4839-9289-3f68db52e30a" configVersion="078faf0de20d4f57e9620769cf55b72f17671de8"/>
+		<Metadata name="Role.ПолныеПрава" id="ef9245f8-3f7f-4756-9e12-17ee259d43f6" configVersion="0407b6dbaa7b1955829a9d873ae9f22448abcc5a"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="ef9245f8-3f7f-4756-9e12-17ee259d43f6.0" configVersion="ea46a22471a6bd4840f38593bf50ffccfa4712b1"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
