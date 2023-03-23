@@ -67,6 +67,7 @@
 					<ChildItems>
 						<Button name="fast8Закрыть" id="424">
 							<Type>UsualButton</Type>
+							<Width>3</Width>
 							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 							<CommandName>Form.Command.fast8Закрыть</CommandName>
 							<ExtendedTooltip name="fast8ЗакрытьРасширеннаяПодсказка" id="425"/>
@@ -3178,7 +3179,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>fast8Закрыть</Action>
-			<Representation>TextPicture</Representation>
+			<Representation>Picture</Representation>
 		</Command>
 		<Command name="fast8ПерезагрузитьПрограмму" id="3">
 			<Title>
