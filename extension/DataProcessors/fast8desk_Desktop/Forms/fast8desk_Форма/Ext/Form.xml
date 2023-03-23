@@ -1342,7 +1342,7 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Изменения конфигурации сегодня</v8:content>
+									<v8:content>Изменения конфигурации вчера-сегодня</v8:content>
 								</v8:item>
 							</Title>
 							<Behavior>PopUp</Behavior>
